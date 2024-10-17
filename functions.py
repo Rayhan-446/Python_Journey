@@ -35,5 +35,5 @@ def emoji_converter(message):
         output+=emojis.get(word,word)+" "
     return output
 
-message=input("> ")
-print(emoji_converter(message))
+# message=input("> ")
+# print(emoji_converter(message))
